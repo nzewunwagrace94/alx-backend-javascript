@@ -1,9 +1,10 @@
-#!/usr/bin/env node
-// In the file 0-console.js, create a function named
-// display Message that prints in STDOUT the string argument.
-
-function displayMessage(arg) {
-  process.stdout.write(`${arg}\n`);
-}
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ */
+const displayMessage = (msg) => {
+  console.log(msg);
+};
 
 module.exports = displayMessage;
